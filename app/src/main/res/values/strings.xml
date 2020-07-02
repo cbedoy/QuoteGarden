@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Quote Garden</string>
+    <string name="credit">#quotegarden#iambedoy</string>
+    <string name="credit_alt">Made with ❤️🌮 by Mexican Guy</string>
+    <string name="about">About</string>
 </resources>

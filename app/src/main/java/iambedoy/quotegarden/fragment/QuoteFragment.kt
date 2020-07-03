@@ -108,7 +108,7 @@ class QuoteFragment : Fragment(), SensorEventListener{
         viewModel.currentQuote.observe(viewLifecycleOwner, Observer { quote ->
 
             context?.let {
-                title_view.setTextColor(ContextCompat.getColor(it, colors.shuffled().first()))
+                description_view.setTextColor(ContextCompat.getColor(it, colors.shuffled().first()))
             }
 
             val hashTag = getString(if(quote.quoteText.length % 2 == 0) R.string.credit else R.string.credit_alt)

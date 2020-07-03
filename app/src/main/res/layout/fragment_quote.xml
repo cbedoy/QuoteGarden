@@ -25,7 +25,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:fontFamily="@font/roboto"
-        android:textColor="@color/color_primary_01"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
         android:lineSpacingMultiplier="0.8"
         tools:text="First line with some lines bellow cuz there something we have to test" />
